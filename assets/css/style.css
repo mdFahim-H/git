@@ -61,11 +61,11 @@ ul.navbar-nav {
   align-items: center;
 }
 
-ul.navbar li {
+ul.navbar-nav li {
   float: left;
 }
 
-ul.navbar li a {
+ul.navbar-nav li a {
   display: inline-block;
   color: #d4d4d4;
   text-align: center;
@@ -73,18 +73,18 @@ ul.navbar li a {
   transition: 0.4s ease;
 }
 
-ul.navbar li a:hover,
+ul.navbar-nav li a:hover,
 .dropdown:hover .dropbtn {
   color: #fff;
   background-color: #000;
 }
 
-ul.navbar li a.active {
+ul.navbar-nav li a.active {
   color: #fff;
   background-color: #000;
 }
 
-ul.navbar li.dropdown {
+ul.navbar-nav li.dropdown {
   display: inline-block;
   /* display: block; */
 }
@@ -99,7 +99,7 @@ ul.navbar li.dropdown {
   z-index: 1;
 }
 
-ul.navbar .dropdown .dropdown-content a {
+ul.navbar-nav .dropdown .dropdown-content a {
   color: #000;
   display: block;
   padding: 12px 16px;
